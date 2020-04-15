@@ -58,3 +58,8 @@ for i in feedList:
 
 for r in results:
     a_details = ArticleParser(r,excludeTag)
+
+# Begin eBook creation
+
+mag = epub.EpubBook()
+Title = input('Name your magazine:')
